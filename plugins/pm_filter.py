@@ -764,7 +764,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
             InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', callback_data='deploy'),
-            InlineKeyboardButton('𝐴𝑃𝑃𝑅𝑂𝑉𝐴𝐿', callback_data='approval'),
+            InlineKeyboardButton('𝐴𝑃𝑃𝑅𝑂𝑉𝐴𝐿', callback_data='approve'),
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
         ]]
@@ -813,34 +813,34 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="𝙾"
+            text="▢ ▢ ▢"
         )
         await query.message.edit_text(
-            text="𝙾𝙿"
+            text="▣ ▢ ▢"
         )
         await query.message.edit_text(
-            text="𝙾𝙿𝚄"
+            text="▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="𝙾𝙿𝚄𝚂"
+            text="▣ ▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="𝙾𝙿𝚄𝚂-"
+            text="▣ ▣ ▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="𝙾𝙿𝚄𝚂-𝚃"
+            text="▣ ▣ ▣ ▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="𝙾𝙿𝚄𝚂-𝚃𝙴"
+            text="▣ ▣ ▣ ▣ ▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="𝙾𝙿𝚄𝚂-𝚃𝙴𝙲"
+            text="▣ ▣ ▣ ▣ ▣ ▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷"
+            text="▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉"
+            text="▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣"
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
