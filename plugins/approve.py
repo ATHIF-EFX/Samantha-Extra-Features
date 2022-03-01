@@ -3,7 +3,7 @@ from pyrogram.errors import PeerIdInvalid, RPCError, UserNotParticipant
 from pyrogram.types import CallbackQuery, ChatPermissions, Message
 
 from Alita import LOGGER, SUPPORT_GROUP
-from pyrogram import Client as Alita
+from pyrogram import Client as Script
 from database.approve_db import Approve
 from Alita.utils.custom_filters import admin_filter, command, owner_filter
 from Alita.utils.extract_user import extract_user
