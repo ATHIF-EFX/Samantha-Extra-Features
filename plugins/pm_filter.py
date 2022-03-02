@@ -763,25 +763,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐹 𝑆𝑇𝑂𝑅𝐸', callback_data='newdata'),
             InlineKeyboardButton('𝑆𝑇𝐴𝑇𝑆', callback_data='stats')
             ],[
-            InlineKeyboardButton('𝐴𝑃𝑃𝑅𝑂𝑉𝐴𝐿', callback_data='approve'),
+            InlineKeyboardButton('𝐴𝑃𝑃𝑅𝑂𝑉𝐴𝐿', callback_data='lock'),
             InlineKeyboardButton('⚚ 𝐵𝐴𝐶𝐾 ⚚', callback_data='start'),
             InlineKeyboardButton('🤠𝐴𝐵𝑂𝑈𝑇🤠', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▢ ▢ ▢"
+            text="▢  ▢  ▢"
         )
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="▣  ▢  ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣"
+            text="▣  ▣  ▣"
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -797,19 +791,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▢ ▢ ▢"
+            text="▢  ▢  ▢"
         )
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="▣  ▢  ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣"
+            text="▣  ▣  ▣"
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
@@ -1139,13 +1127,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        elif query.data == "approve":
+        elif query.data == "lock":
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='approve')
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='lock')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.APROVE_TXT,
+            text=script.LOCK_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
