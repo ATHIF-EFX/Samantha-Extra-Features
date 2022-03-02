@@ -1,7 +1,7 @@
 from os import getcwd
 
-from Alita.lallu_tg.prettyconf import Configuration
-from Alita.lallu_tg.prettyconf.loaders import EnvFile, Environment
+from prettyconf import Configuration
+from prettyconf.loaders import EnvFile, Environment
 
 env_file = f"{getcwd()}/.env"
 config = Configuration(loaders=[Environment(), EnvFile(filename=env_file)])
