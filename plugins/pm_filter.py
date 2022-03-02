@@ -765,7 +765,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⚚ 𝐵𝐴𝐶𝐾 ⚚', callback_data='start'),
             InlineKeyboardButton('🤠𝐴𝐵𝑂𝑈𝑇🤠', callback_data='about'),
-            InlineKeyboardButton('🗑️ 𝐶𝐿𝑂𝑆𝐸 🗑️', callback_data'close')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -781,22 +780,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="▣ ▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣"
+            text="▣ ▣ ▣ ▣ ▣"
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -824,22 +808,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="▣ ▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣ ▢"
-        )
-        await query.message.edit_text(
-            text="▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣ ▣"
+            text="▣ ▣ ▣ ▣ ▣"
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
