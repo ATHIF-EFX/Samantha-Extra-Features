@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/SAMANTHA.png" alt="SAMANTHA.png">
+  <img src="assets/https://telegra.ph/file/7a0a55fe30dd8ddc65c89.jpg" alt="https://telegra.ph/file/7a0a55fe30dd8ddc65c89.jpg">
 </p>
 <h1 align="center">
   <b>𝑆𝑎𝑚𝑎𝑛𝑡ℎ𝑎 𝐸𝑥𝑡𝑟𝑎 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠</b>
