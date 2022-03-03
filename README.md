@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="SAMANTHA.png">
+  <img src="assets/SAMANTHA.png" alt="SAMANTHA.png">
 </p>
 <h1 align="center">
   <b>𝑆𝑎𝑚𝑎𝑛𝑡ℎ𝑎 𝐸𝑥𝑡𝑟𝑎 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠</b>
