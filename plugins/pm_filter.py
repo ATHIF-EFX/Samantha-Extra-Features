@@ -756,11 +756,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐴𝑈𝐷𝐼𝑂 𝐵𝑂𝑂𝐾', callback_data='abook'),
             InlineKeyboardButton('𝑈𝑅𝐿 𝑆𝐻𝑂𝑅𝑇', callback_data='urlshort')
             ],[
-            InlineKeyboardButton('𝐺 𝑇𝑅𝐴𝑁𝑆', callback_data='gtrans'),
-            InlineKeyboardButton('𝐹 𝑆𝑇𝑂𝑅𝐸', callback_data='newdata'),
+            InlineKeyboardButton('𝐺-𝑇𝑅𝐴𝑁𝑆', callback_data='gtrans'),
+            InlineKeyboardButton('𝐹-𝑆𝑇𝑂𝑅𝐸', callback_data='newdata'),
             InlineKeyboardButton('𝑆𝑇𝐴𝑇𝑆', callback_data='stats')
             ],[
-            InlineKeyboardButton('𝐴𝑃𝑃𝑅𝑂𝑉𝐴𝐿', callback_data='lock'),
+            InlineKeyboardButton('𝐿𝑂𝐶𝐾', callback_data='lock'),
             InlineKeyboardButton('⚚ 𝐵𝐴𝐶𝐾 ⚚', callback_data='start'),
             InlineKeyboardButton('🤠𝐴𝐵𝑂𝑈𝑇🤠', callback_data='about')
         ]]
