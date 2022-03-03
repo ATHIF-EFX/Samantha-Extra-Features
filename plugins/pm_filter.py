@@ -679,15 +679,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝑎𝑑𝑑 𝑚𝑒 𝑡𝑜 𝑎 𝑐ℎ𝑎𝑡 𝑔𝑟𝑜𝑢𝑝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[    
+            InlineKeyboardButton('ℎ𝑒𝑙𝑝', callback_data='help'),
+            InlineKeyboardButton('𝑎𝑏𝑜𝑢𝑡', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
-            ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('𝑠𝑒𝑎𝑟𝑐ℎ', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -769,13 +766,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▢  ▢  ▢"
+            text="▢ ▢ ▢"
         )
         await query.message.edit_text(
-            text="▣  ▢  ▢"
+            text="▣ ▢ ▢"
         )
         await query.message.edit_text(
-            text="▣  ▣  ▣"
+            text="▣ ▣ ▣"
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -791,13 +788,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▢  ▢  ▢"
+            text="▢ ▢ ▢"
         )
         await query.message.edit_text(
-            text="▣  ▢  ▢"
+            text="▣ ▢ ▢"
         )
         await query.message.edit_text(
-            text="▣  ▣  ▣"
+            text="▣ ▣ ▣"
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
