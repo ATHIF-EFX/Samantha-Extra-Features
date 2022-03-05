@@ -50,16 +50,20 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
 ━━━━━━━━━━━━᚜ <a href=https://t.me/Aadhi011><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━"""
-    CAPTCHA_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝗖𝗮𝗽𝘁𝗰𝗵𝗮 𝗺𝗼𝗱𝘂𝗹𝗲.../
-
-<b>Some chats get a lot of users joining just to spam. This could be because they're trolls, or part of a spam network.
-To slow them down, you could try enabling CAPTCHAs. New users joining your chat will be required to complete a test to confirm that they're real people.../</b>
-
-⪼ 𝐀𝐝𝐦𝐢𝐧 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ›
-
-➪ /captcha ›› <b>yes/no/on/off>: All users that join will need to solve a CAPTCHA. This proves they aren't a bot..</b>
-➪ /captchamode ›› <b>button/math/text>: Choose which CAPTCHA type to use for your chat..</b>
-➪ /captcharules
+    NOTE_TXT = """Here is the help for the <b>Notes</b> module:
+Save data for future users with notes!
+Notes are great to save random tidbits of information; a phone number, a nice gif, a funny picture - anything!
+User commands:
+- /get <notename>: Get a note.
+- #notename: Same as /get.
+<b>Admin commands</b>:
+- /save <notename> <note text>: Save a new note called "word". Replying to a message will save that message. Even works on media!
+- /clear <notename>: Delete the associated note.
+- /notes: List all notes in the current chat.
+- /saved: Same as /notes.
+- /clearall: Delete ALL notes in a chat. This cannot be undone.
+- /privatenotes: Whether or not to send notes in PM. Will send a message with a button which users can click to get the note in PM."""
+    
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
 <b>By Using This Module You can store files in My database and I will You A Permanent link To access The saved Files.If You want to add files from a Public channel send the file link only or You want to store files from a Private channel you must make me admin on their to access files files.../</b>
