@@ -761,8 +761,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝑆𝑇𝐴𝑇𝑆', callback_data='stats')
             ],[
             InlineKeyboardButton('𝐿𝑂𝐶𝐾', callback_data='lock'),
-            InlineKeyboardButton('⚚ 𝐵𝐴𝐶𝐾 ⚚', callback_data='start'),
-            InlineKeyboardButton('𝐴𝑏𝑜𝑢𝑡', callback_data='about')
+            InlineKeyboardButton('𝑁𝑂𝑇𝐸𝑆', callback_data='note'),
+            InlineKeyboardButton('⚚ 𝐵𝐴𝐶𝐾 ⚚', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1154,7 +1154,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "stats":
+        elif query.data == "note":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.NOTE_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+     )
+     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
             InlineKeyboardButton('𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
