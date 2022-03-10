@@ -1,7 +1,7 @@
 from threading import RLock
 
 from Alita import LOGGER
-from alita.database import MongoDB
+from database import MongoDB
 
 INSERTION_LOCK = RLock()
 
