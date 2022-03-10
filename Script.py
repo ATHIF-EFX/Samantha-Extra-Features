@@ -51,23 +51,6 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
 ━━━━━━━━━━━━᚜ <a href=https://t.me/Aadhi011><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━"""
 
-    APPROVE_TXT = """Here is the help for the Approvals module:
-
-Sometimes, you might trust a user not to send unwanted content.
-Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
-That's what approvals are for - approve of trustworthy users to allow them to send
-
-User commands:
-× /approval: Check a user's approval status in this chat.
-
-Admin Commands:
-× /approve: Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
-× /unapprove: Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
-× /approved: List all approved users.
-
-Owner Commands:
-× /unapproveall: Unapprove ALL users in a chat. This cannot be undone.""
-
     NOTE_TXT = """Here is the help for the <b>Notes</b> module:
 Save data for future users with notes!
 Notes are great to save random tidbits of information; a phone number, a nice gif, a funny picture - anything!
